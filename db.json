@@ -1,0 +1,22 @@
+{
+  "applicant": [
+    { "id": 1, "name": "john",  "email": "john@gmail.com", "status": "active" },
+    { "id": 2, "name": "adam",  "email": "adam@gmail.com", "status": "pending"},
+    { "id": 3, "name": "peter", "email": "peter@gmail.com","status": "active" },
+	{ "id": 4, "name": "luke",  "email": "luke@gmail.com", "status": "active" },
+	{ "id": 5, "name": "mark",  "email": "mark@gmail.com", "status": "active" }
+  ],
+  "case": [
+	{ "id": 1, "status": "pending", 	"number": "0-000-1", "app_id": 1 },
+	{ "id": 2, "status": "in progress", "number": "0-000-2", "app_id": 2 },
+	{ "id": 2, "status": "pending", 	"number": "0-000-3", "app_id": 3 },
+	{ "id": 2, "status": "approved", 	"number": "0-000-4", "app_id": 4 },
+	{ "id": 2, "status": "denied", 		"number": "0-000-5", "app_id": 5 },
+	{ "id": 2, "status": "approved",	"number": "0-000-6", "app_id": 5 },
+	{ "id": 2, "status": "denied", 		"number": "0-000-7", "app_id": 3 }
+
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
